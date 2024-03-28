@@ -4,7 +4,7 @@
 INSTAGRAM_TOKEN="your_instagram_token_here"
 
 # Telegram API token
-TELEGRAM_TOKEN="7021373042:AAHINQ_e6UVuCKtnwWQFDfwUQfocckJ6eR8"
+TELEGRAM_TOKEN="your_telegram_bot_token_here"
 
 # Telegram chat ID
-CHAT_ID="5633527166"
+CHAT_ID="your_telegram_chat_id_here"
