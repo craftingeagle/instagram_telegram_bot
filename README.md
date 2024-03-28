@@ -23,7 +23,7 @@ This project aims to create a bot that provides real-time updates on Instagram f
 
 5. **Create a New Bot**: Once you're chatting with BotFather, type `/newbot` and follow the instructions. BotFather will ask you for a name for your bot and then a username. The username must end in "bot" and be unique.
 
-6. **Copy Your Bot Token**: After successfully creating the bot, BotFather will provide you with a token. This token is like a password for your bot and will be used to authenticate your bot when interacting with the Telegram API. Copy this token and keep it secure.
+6. **Copy Your Bot Token**: After successfully creating the bot, [BotFather](https://core.telegram.org/bots#botfather) will provide you with a token. This token is like a password for your bot and will be used to authenticate your bot when interacting with the Telegram API. Copy this token and keep it secure.
 
 7. **Instagram API Token**: Generate an Instagram API token for accessing your account data.
 
