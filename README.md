@@ -5,6 +5,7 @@ This project aims to create a bot that provides real-time updates on Instagram f
 [![Version](https://img.shields.io/badge/Version-v1.0-red.svg)](https://github.com/craftingeagle/instagram_telegram_bot)
 [![Bash Version](https://img.shields.io/badge/Bash-v5.1.0-green.svg)](https://www.gnu.org/software/bash/)
 [![JSON](https://img.shields.io/badge/json-v1.7.1-green?logo=json)](https://stedolan.github.io/jq/download/)
+
 [![Termux](https://img.shields.io/badge/Termux-v0.117-1e1f25?style=flat&logo=Termux&logoColor=ffffff)](https://termux.com/)
 [![Telegram](https://img.shields.io/badge/Telegram-v8.5.3-2ca5e0?style=flat&logo=Telegram&logoColor=ffffff)](https://telegram.org/)
 
