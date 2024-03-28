@@ -59,8 +59,29 @@ This project aims to create a bot that provides real-time updates on Instagram f
 
 ## Usage
 
-- Run the scripts manually to test functionality or wait for cron jobs to execute them automatically.
-- Check Telegram for notifications containing follower count and view count updates.
+Follow these steps to use the Instagram Telegram bot:
+
+1. **Start the Bot**: Start the Telegram bot by searching for it in your Telegram app and clicking on "Start". This will initialize the bot and allow it to send you notifications.
+
+2. **Wait for Notifications**: Once the bot is started, wait for notifications to arrive. The bot will send notifications containing updates on your Instagram follower count and view count at regular intervals.
+
+3. **Interact with Notifications**: When you receive a notification, you can view your current follower count and view count directly in the message. If you have any concerns or want to take action based on the information provided, you can do so within the Telegram app.
+
+4. **Manual Execution**: If you want to manually trigger updates or check your counts at any time, you can run the scripts manually from the Termux terminal. Navigate to the `scripts/` directory and execute the desired script:
+    ```bash
+    cd scripts
+    ./scrape_followers.sh
+    ```
+    This will update the follower count. Similarly, you can run `scrape_views.sh` to update the view count, and `send_notification.sh` to manually send a notification with the latest counts.
+
+5. **Customize Cron Jobs**: If you want to customize the frequency of updates or notifications, you can edit the cron jobs in your Termux environment. Use `crontab -e` to access and modify your cron jobs according to your preferences.
+
+6. **Troubleshooting**: If you encounter any issues or have questions about the bot's functionality, refer to the README.md file for troubleshooting tips or reach out to the project contributors for assistance.
+
+7. **Feedback and Contributions**: Your feedback and contributions are valuable for improving the bot's functionality and reliability. If you have any suggestions, bug reports, or feature requests, feel free to open an issue or submit a pull request on the project's GitHub repository.
+
+8. **Enjoy**: Sit back, relax, and enjoy the convenience of receiving real-time updates on your Instagram metrics directly in your Telegram app!
+
 
 ## Contributing
 
